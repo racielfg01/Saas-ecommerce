@@ -83,7 +83,7 @@ export function CheckoutModal({ open, onClose }: CheckoutModalProps) {
       return;
     }
 
-    const whatsappNumber = "5491112345678"; // Número de WhatsApp del negocio (ajustable)
+    const whatsappNumber = "+5352013998"; // Número de WhatsApp del negocio (ajustable)
     const message = generateWhatsAppMessage();
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
 

@@ -60,7 +60,7 @@ export function CartSidebar({ open, onClose }: CartSidebarProps) {
             </div>
           ) : (
             <>
-              <ScrollArea className="flex-1 -mx-6">
+              <ScrollArea className="flex-1 mx-4">
                 <div className="space-y-4 px-6">
                   {cart.map((item) => (
                     <div key={item.id} className="flex gap-4">
@@ -116,7 +116,7 @@ export function CartSidebar({ open, onClose }: CartSidebarProps) {
                 </div>
               </ScrollArea>
 
-              <div className="space-y-4 pt-4">
+              <div className="space-y-4 py-4 mx-4">
                 <Separator />
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">

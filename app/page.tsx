@@ -31,7 +31,7 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <Navbar onCartOpen={() => setCartOpen(true)} />
       
-      <main className="container py-8 space-y-8">
+      <main className="container py-8 space-y-8 px-4 md:px-8">
         <Banner />
 
         {user && (
